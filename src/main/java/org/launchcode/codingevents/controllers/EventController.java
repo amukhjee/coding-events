@@ -20,7 +20,7 @@ import javax.validation.Valid;
 public class EventController {
 
     @Autowired
-    private EventRepository eventRepository;
+    public EventRepository eventRepository;
 
     @GetMapping
     public String displayAllEvents(Model model) {
